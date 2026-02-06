@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Customers from './pages/Customers'
 import Manufacturers from './pages/Manufacturers'
 import Suppliers from './pages/Suppliers'
+import Admin from './pages/Admin'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/partners/customers" element={<Customers />} />
         <Route path="/partners/manufacturers" element={<Manufacturers />} />
         <Route path="/partners/suppliers" element={<Suppliers />} />
+        <Route path="/admin" element={<Admin />} />
       </Route>
     </Routes>
   )
